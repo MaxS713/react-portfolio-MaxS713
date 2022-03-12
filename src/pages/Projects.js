@@ -1,18 +1,64 @@
 import React from "react";
-import NavBar from "../components/NavBar.js"
-import Footer from "../components/Footer.js"
+import NavBar from "../components/NavBar.js";
+import Footer from "../components/Footer.js";
+import guessTheNumberPreview from "../images/guessthenumber-preview.png";
+import zorkingtonPreview from "../images/zorkington-preview.png";
+import jeopardyPreview from "../images/jeopardy-preview.png";
 
+export default function Projects() {
+  return (
+    <main>
+      <NavBar />
 
-export default function Projects () {
-    return(
-    <>
-        <NavBar />
-
-        <div id="hero">
-            <h1>Projects</h1>
+      <div className="info-box">
+        <h1 className="box-title">My creations</h1>
+        <div className="project-list">
+            <div className="project-item">
+          <div className="description-header">
+            <h2>Project Name</h2>
+            <img
+              src={guessTheNumberPreview}
+              height="100vh"
+              alt="Preview of Guess The Number console game"
+            />
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          </div>
+          <div className="project-item">
+          <div className="description-header">
+            <h2>Project Name</h2>
+            <img
+              src={guessTheNumberPreview}
+              height="100vh"
+              alt="Preview of Guess The Number console game"
+            />
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          </div>
+          <div className="project-item">
+          <div className="description-header">
+            <h2>Project Name</h2>
+            <img
+              src={guessTheNumberPreview}
+              height="100vh"
+              alt="Preview of Guess The Number console game"
+            />
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          </div>
         </div>
+      </div>
 
-        <Footer />
-    </>
-    )
+      <Footer />
+    </main>
+  );
 }

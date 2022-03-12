@@ -6,17 +6,17 @@ import profilePicture from "../media/profile-picture.png"
 
 export default function About () {
     return(
-    <>
+    <main>
         <NavBar />
 
-        <div id="about-me">
+        <div className="info-box">
         <div id="about-me-header">
         <img src={profilePicture} alt="Max" height="125vh"/>
-        <h1>About Me</h1>
+        <h1 className="box-title">About Me</h1>
         </div>
         </div>
 
         <Footer />
-    </>
+    </main>
     )
 }
