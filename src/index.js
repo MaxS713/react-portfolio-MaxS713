@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import './index.css';
 
+
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>

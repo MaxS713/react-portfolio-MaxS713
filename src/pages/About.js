@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar.js"
 import Footer from "../components/Footer.js"
-import profilePicture from "../media/profile-picture.png"
+import profilePicture from "../images/profile-picture.png"
 
 
 export default function About () {

@@ -31,9 +31,9 @@ export default function Projects() {
           <div className="description-header">
             <h2>Project Name</h2>
             <img
-              src={guessTheNumberPreview}
+              src={zorkingtonPreview}
               height="100vh"
-              alt="Preview of Guess The Number console game"
+              alt="Preview of Zorkington console game"
             />
           </div>
           <p>
@@ -45,9 +45,9 @@ export default function Projects() {
           <div className="description-header">
             <h2>Project Name</h2>
             <img
-              src={guessTheNumberPreview}
+              src={jeopardyPreview}
               height="100vh"
-              alt="Preview of Guess The Number console game"
+              alt="Preview of Jeopardy board game"
             />
           </div>
           <p>
