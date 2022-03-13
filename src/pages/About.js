@@ -26,15 +26,14 @@ export default function About() {
             friends try them out!
           </p>
           <p>
-            {" "}
             I am currently studying with a program called Upright Education
             a.k.a Burlington Code Academy. Building knowledge in all things
-            coding.{" "}
+            coding: JavaScript, HTML and CSS.
           </p>
 
           <p>
             AFK, you will find me taking care of my pet rabbit, cooking food,
-            watching popular movies and tv shows and playing music!{" "}
+            watching popular movies and tv shows and playing music!
           </p>
         </div>
       </div>

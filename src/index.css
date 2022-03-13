@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans");
 
-* {
+/* * {
   border: 0.1px solid red;
-}
+} */
 
 html {
   height: 100vh;
@@ -13,14 +13,14 @@ body {
   background-color: #1a1d1a;
   font-family: "Open Sans", sans-serif;
   color: #f3f5f7;
-  margin:0;
-  padding:0;
-  height:100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
-main{
-  min-height:100vh;
-  position:relative;
+main {
+  min-height: 100vh;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -67,12 +67,40 @@ h2 {
   color: #03120e;
 }
 
+#hero{
+  position:absolute;
+  top:10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:80vh;
+}
+
+#hero-title {
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 30vw;
+  font-size: calc(2.5vw + 1em);
+}
+
+.bracket {
+  color: #8ab0ab;
+  font-size: calc(0.5vw + 1em);
+}
+
+#hero img{
+  max-height:60vh;
+}
+
 .info-box {
+  cursor: default;
   outline: 5px solid #8ab0ab;
   margin-top: 5vh;
   margin-bottom: 5vh;
   padding: 2rem;
-  min-height:50vh;
+  min-height: 50vh;
   margin-bottom: 20vh;
 }
 
@@ -81,8 +109,8 @@ h2 {
   gap: 5vw;
 }
 
-#about-me-content{
-  max-width:60vw;
+#about-me-content {
+  max-width: 60vw;
   padding: 1rem;
 }
 
@@ -91,24 +119,24 @@ h2 {
   text-underline-offset: 15px;
 }
 
-.project-list {
-  display:grid;
-  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+#project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   column-gap: 3vw;
 }
 
-.project-list h2 {
+#project-list h2 {
   text-decoration: underline 3px solid #8ab0ab;
   text-underline-offset: 6px;
 }
 
-.description-header{
-  display:grid;
+#project-list img:hover {
+  outline:2px solid #8ab0ab
 }
 
 #footer {
-  position:absolute;
-  bottom:0;
+  position: absolute;
+  bottom: 0;
   display: flex;
   justify-content: space-around;
   width: 100vw;
@@ -120,22 +148,24 @@ h2 {
 #contact-me-footer-section {
   display: flex;
   flex-direction: column;
-  margin-top:1vh;
+  margin-top: 1vh;
   margin-bottom: 1vh;
 }
 
-#contact-me-footer-content{
-  display:grid;
-  grid-template-columns: repeat(auto-fit,  minmax(20vw, 1fr));
+#contact-me-footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
 }
 
 #contact-me-footer-section h2 {
+  cursor: default;
   font-size: calc(1vw + 0.5em);
   margin: 0;
   padding: 0;
 }
 
 #contact-me-footer-section h3 {
+  cursor: default;
   font-size: calc(0.5vw + 0.5em);
   margin: 0;
   padding: 0;
@@ -147,37 +177,43 @@ h2 {
   padding: 0;
 }
 
-#footer img{
-  filter: invert(25%) sepia(31%) saturate(382%) hue-rotate(159deg) brightness(101%) contrast(86%);
+#footer img {
+  filter: invert(25%) sepia(31%) saturate(382%) hue-rotate(159deg)
+    brightness(101%) contrast(86%);
 }
 
-#footer img:hover{
-  filter: invert(6%) sepia(35%) saturate(698%) hue-rotate(113deg) brightness(92%) contrast(101%);
+#footer img:hover {
+  filter: invert(6%) sepia(35%) saturate(698%) hue-rotate(113deg)
+    brightness(92%) contrast(101%);
 }
 
-#social-icons{
+#social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+
+#resume-download{
   display:flex;
   justify-content: center;
   align-items: center;
-  gap:2vw;
 }
 
-#hero{
-display:flex;
-justify-content: center;
-align-items: center;
+#resume-download button{
+  height:5vh;
+  color:#3e505b;
+  background-color: #8ab0ab;
+  border: 2px solid #3e505b;
+  border-radius: 2px;
 }
 
-#hero-title{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  min-width:25vw;
-  font-size: calc(2.5vw + 1em);
+#resume-download button:hover{
+  cursor: pointer;
+  height:5vh;
+  color:#03120e;
+  background-color: #8ab0ab;
+  border: 2px solid #03120e;
+  border-radius: 2px;
 }
 
-
-.bracket{
-  color:#8ab0ab;
-  font-size: calc(0.5vw + 1em);
-}
