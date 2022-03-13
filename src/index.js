@@ -9,6 +9,8 @@ import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
+
+    {/* Router creation for the links to the three main pages of the site */}
     <BrowserRouter>
     <Routes>
         <Route index element={<HomePage />} />
@@ -16,6 +18,7 @@ ReactDOM.render(
         <Route path="/Projects" element={<Projects />} />
     </Routes>
   </BrowserRouter>
+
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -5,11 +5,16 @@ import TxtTypeAnimation from "../components/TxtType.js";
 import minecraftSkin from "../images/minecraft-skin.png";
 
 export default function HomePage() {
-  TxtTypeAnimation();
+
+  TxtTypeAnimation(); //function invocation of the imported title animation 
+
   return (
     <main id="home-page">
-      <NavBar />
+      <NavBar /> {/*Navigation Bar component*/}
+
+{/*Main Page content with minecraft skin and title animation*/}
       <div id="hero">
+
         <h1 id="hero-title">
           <span className="bracket">[&nbsp;</span>
           <div
@@ -20,9 +25,12 @@ export default function HomePage() {
           <span className="wrap"></span>
           <span className="bracket">&nbsp;]</span>
         </h1>
+
         <img src={minecraftSkin} height="350vh" alt="Max's Minecraft skin" />
+
       </div>
-      <Footer />
+
+      <Footer /> {/*Footer component*/}
     </main>
   );
 }

@@ -8,57 +8,64 @@ import jeopardyPreview from "../images/jeopardy-preview.png";
 export default function Projects() {
   return (
     <main>
-      <NavBar />
+      <NavBar /> {/*Navigation Bar component*/}
 
+{/*List of projects - in a grid layout*/}
       <div className="info-box">
         <h1 className="box-title">My creations</h1>
         <div className="project-list">
-            <div className="project-item">
-          <div className="description-header">
-            <h2>Project Name</h2>
-            <img
-              src={guessTheNumberPreview}
-              height="100vh"
-              alt="Preview of Guess The Number console game"
-            />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
+
+          <div className="project-item">
+            <div className="description-header">
+              <h2>Guess The Number</h2>
+              <img
+                src={guessTheNumberPreview}
+                height="100vh"
+                alt="Preview of Guess The Number console game"
+              />
+            </div>
+            <p>
+              A console program that has the computer guess a number you picked, 
+              or lets you guess a number the computer picked!
+              Showcases basic javascript logic and operators.
+            </p>
           </div>
           <div className="project-item">
-          <div className="description-header">
-            <h2>Project Name</h2>
-            <img
-              src={zorkingtonPreview}
-              height="100vh"
-              alt="Preview of Zorkington console game"
-            />
+
+            <div className="description-header">
+              <h2>Zorkington</h2>
+              <img
+                src={zorkingtonPreview}
+                height="100vh"
+                alt="Preview of Zorkington console game"
+              />
+            </div>
+            <p>
+              A text based console game inspired by the first popular of its kind: Zorkington.
+              The game is called Xirtam and is based on the theme of the Matrix. 
+              Feel free to try it out! {"\n"}
+              This showcases the use of basic javascript objects and class constructors.
+            </p>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          </div>
+
           <div className="project-item">
-          <div className="description-header">
-            <h2>Project Name</h2>
-            <img
-              src={jeopardyPreview}
-              height="100vh"
-              alt="Preview of Jeopardy board game"
-            />
-          </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
+            <div className="description-header">
+              <h2>Jeopardy Board</h2>
+              <img
+                src={jeopardyPreview}
+                height="100vh"
+                alt="Preview of Jeopardy board game"
+              />
+            </div>
+            <p>
+              A trivia game based on the famous TV show Jeopardy.
+              This showcases HTML, CSS and JS working together!
+            </p>
           </div>
         </div>
       </div>
 
-      <Footer />
+      <Footer /> {/*Footer component*/}
     </main>
   );
 }
