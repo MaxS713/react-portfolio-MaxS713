@@ -1,7 +1,7 @@
 import {useEffect} from "react";
 
-/* I found this js text typing animation online, 
-I trie to comprehend what's happening but,
+/* I found this JS text typing animation online, 
+I tried to comprehend what's happening but,
 although a lot is familiar, this is, for the most part, still pretty much elvish :l
 I wish I had the skills to create something like that! 
 I had to convert it to work with React with useEffect though, there's that*/

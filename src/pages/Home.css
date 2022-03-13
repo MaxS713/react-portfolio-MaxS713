@@ -1,0 +1,29 @@
+
+/* Style and layout for elements spcific to the home page */
+
+#hero{
+  position:absolute;
+  top:10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:80vh;
+}
+
+#hero-title {
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 30vw;
+  font-size: calc(2.5vw + 1em);
+}
+
+.bracket {
+  color: #8ab0ab;
+  font-size: calc(0.5vw + 1em);
+}
+
+#hero img{
+  max-height:60vh;
+}

@@ -1,0 +1,35 @@
+
+/* Style for the navigation bar */
+
+#navbar {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #8ab0ab;
+}
+
+#navbar a {
+  color: #3e505b;
+  font-size: calc(1vw + 1em);
+}
+
+#navbar a:link {
+  text-decoration: none;
+}
+
+#navbar a:visited {
+  text-decoration: none;
+}
+
+#navbar a:active {
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  text-decoration: none;
+  color: #03120e;
+}

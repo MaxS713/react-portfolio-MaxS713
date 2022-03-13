@@ -1,0 +1,31 @@
+
+/* Style and layout for elements spcific to the about page */
+
+.info-box {
+  cursor: default;
+  outline: 5px solid #8ab0ab;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  padding: 2rem;
+  min-height: 50vh;
+  margin-bottom: 20vh;
+}
+
+.box-title {
+  text-decoration: underline 5px solid #8ab0ab;
+  text-underline-offset: 15px;
+}
+
+#about-me-header {
+  display: flex;
+  gap: 3vw;
+}
+
+#about-me-header img{
+  margin-left: 3vw;
+}
+
+#about-me-content {
+  max-width: 60vw;
+  padding: 1rem;
+}

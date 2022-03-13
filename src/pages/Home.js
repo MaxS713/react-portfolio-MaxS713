@@ -3,16 +3,18 @@ import NavBar from "../components/NavBar.js";
 import Footer from "../components/Footer.js";
 import TxtTypeAnimation from "../components/TxtType.js";
 import minecraftSkin from "../images/minecraft-skin.png";
+import "./Home.css"
+
 
 export default function HomePage() {
 
-  TxtTypeAnimation(); //function invocation of the imported title animation 
+  TxtTypeAnimation(); //imported function invocation for the title animation
 
   return (
     <main id="home-page">
       <NavBar /> {/*Navigation Bar component*/}
 
-{/*Main Page content with minecraft skin and title animation*/}
+{/*Main Page content with the title animation and minecraft skin*/}
       <div id="hero">
 
         <h1 id="hero-title">
@@ -20,7 +22,7 @@ export default function HomePage() {
           <div
             className="typewrite"
             data-period="2000"
-            data-type='[ "Hello World!", "I&#39;m Max"]'
+            data-type='[ "Hello World!", "I&#39;m Max", "Welcome!"]'
           ></div>
           <span className="wrap"></span>
           <span className="bracket">&nbsp;]</span>

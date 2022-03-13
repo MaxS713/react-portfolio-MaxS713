@@ -1,0 +1,90 @@
+
+/* Style for the footer */
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  min-height: 20vh;
+  color: #3e505b;
+  background-color: #8ab0ab;
+}
+
+/* Style and layout for the contact me section */
+#contact-me-footer-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5vh;
+  margin-bottom: 1vh;
+}
+
+#contact-me-footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
+}
+
+#contact-me-footer-section h2 {
+  cursor: default;
+  font-size: calc(1vw + 0.5em);
+  margin: 0;
+  padding: 0;
+}
+
+#contact-me-footer-section h3 {
+  cursor: default;
+  font-size: calc(0.5vw + 0.5em);
+  margin: 0;
+  padding: 0;
+}
+
+#contact-me-footer-section p {
+  font-size: calc(0.5vw + 0.5em);
+  margin: 0;
+  padding: 0;
+}
+
+/* Style and layout for the social icons links */
+#social-icons {
+  width:20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+
+#footer img {
+  filter: invert(25%) sepia(31%) saturate(382%) hue-rotate(159deg)
+    brightness(101%) contrast(86%);
+}
+
+#footer img:hover {
+  filter: invert(6%) sepia(35%) saturate(698%) hue-rotate(113deg)
+    brightness(92%) contrast(101%);
+}
+
+
+/* Style and layout for the download resume button */
+#resume-download{
+  width:20vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#resume-download button{
+  padding:1rem;
+  color:#3e505b;
+  background-color: #8ab0ab;
+  border: 2px solid #3e505b;
+  border-radius: 2px;
+}
+
+#resume-download button:hover{
+  cursor: pointer;
+  color:#03120e;
+  background-color: #8ab0ab;
+  border: 2px solid #03120e;
+  border-radius: 2px;
+}
