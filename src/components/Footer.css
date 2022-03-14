@@ -16,6 +16,7 @@
 #contact-me-footer-section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin-top: 1.5vh;
   margin-bottom: 1vh;
 }
@@ -47,7 +48,7 @@
 
 /* Style and layout for the social icons links */
 #social-icons {
-  width:20vw;
+  width:18vw;
   display: flex;
   justify-content: center;
   align-items: center;
