@@ -27,3 +27,12 @@
 #hero img{
   max-height:60vh;
 }
+
+/* things were getting squished in portrait
+mode with phone, and this resolves that */
+@media screen and (max-width: 500px) {
+  #hero{
+    display: flex;
+    flex-direction: column;
+  }
+}
