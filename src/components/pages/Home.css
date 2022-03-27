@@ -1,0 +1,44 @@
+
+/* Style and layout for elements specific to the home page */
+
+#home-page{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  height:75vh;
+}
+
+#hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero-title {
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 30vw;
+  font-size: calc(2.5vw + 1em);
+}
+
+.bracket {
+  color: #8ab0ab;
+  font-size: calc(0.5vw + 1em);
+  letter-spacing: 0.5vw;
+}
+
+#hero img{
+  max-height:40vh;
+}
+
+/* things were getting squished in portrait
+mode with phone, and this resolves that */
+@media screen and (max-width: 500px) {
+  #hero{
+    display: flex;
+    flex-direction: column;
+  }
+}
