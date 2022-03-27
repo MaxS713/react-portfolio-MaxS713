@@ -2,12 +2,12 @@
 /* Style for the footer */
 
 #footer {
-  position: absolute;
-  bottom: 0;
+  position:fixed;
+  bottom:0;
   display: flex;
   justify-content: space-around;
   width: 100vw;
-  min-height: 20vh;
+  min-height: 19vh;
   color: #3e505b;
   background-color: #8ab0ab;
 }

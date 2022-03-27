@@ -1,6 +1,6 @@
 import React from "react";
-import linkedInIcon from "../images/linkedin-icon.png";
-import githubIcon from "../images/github-icon.png";
+import linkedInIcon from "../assets/images/linkedin-icon.png";
+import githubIcon from "../assets/images/github-icon.png";
 import resumePDF from "../assets/my-resume.pdf"
 import "./Footer.css"
 
