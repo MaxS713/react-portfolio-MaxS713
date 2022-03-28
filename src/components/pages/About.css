@@ -4,12 +4,38 @@
 .info-box {
   cursor: default;
   outline: 5px solid #8ab0ab;
-  margin-top: 10vh;
-  margin-bottom: 20vh;
-  padding: 2rem;
+  margin-top: 7vh;
+  margin-bottom: 15vh;
+  padding: 1.5rem 2rem 0;
+  height: 55vh;
+  max-width:60vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+@media screen and (max-height: 625px) {
+  .info-box{
+    height: 35vh;
+  }
+}
+
+.info-box::-webkit-scrollbar {
+  width: 20px;
+}
+
+.info-box::-webkit-scrollbar-track {
+  border-radius: 100px;
+}
+
+.info-box::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  border: 5px solid transparent;
+  background-clip: content-box;
+  background-color: #8ab0ab;
 }
 
 .box-title {
+  font-size: calc(1vw + 1em);
   text-decoration: underline 5px solid #8ab0ab;
   text-underline-offset: 15px;
 }
@@ -17,13 +43,11 @@
 #about-me-header {
   display: flex;
   gap: 3vw;
+  margin-bottom: 5vh;
 }
 
 #about-me-header img{
+  height:16vh;
   margin-left: 3vw;
 }
 
-#about-me-content {
-  padding: 1rem;
-  max-width:60vw;
-}

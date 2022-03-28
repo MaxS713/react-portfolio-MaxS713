@@ -6,7 +6,8 @@
   flex-direction:column;
   justify-content: center;
   align-items: center;
-  height:75vh;
+  height:50vh;
+  padding-top: 20vh;
 }
 
 #hero{

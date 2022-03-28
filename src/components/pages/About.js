@@ -12,7 +12,7 @@ export default function About() {
       {/*About page content*/}
       <div className="info-box">
         <div id="about-me-header">
-          <img src={profilePicture} alt="Max" height="125vh" />
+          <img src={profilePicture} alt="Max" />
           <h1 className="box-title">About Me</h1>
         </div>
 
