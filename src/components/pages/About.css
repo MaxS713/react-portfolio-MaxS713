@@ -36,8 +36,8 @@
 
 .info-box .box-title {
   font-size: calc(1vw + 1em);
-  text-decoration: underline 5px solid #8ab0ab;
-  text-underline-offset: 1vh;
+  text-decoration: underline 0.3rem solid #8ab0ab;
+  text-underline-offset: 0.5vh;
 }
 
 #about-me-header {

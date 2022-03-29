@@ -36,8 +36,8 @@
 
 .projects-box .box-title {
   font-size: calc(1vw + 1em);
-  text-decoration: underline 5px solid #8ab0ab;
-  text-underline-offset: 1vh;
+  text-decoration: underline 0.3rem solid #8ab0ab;
+  text-underline-offset: 0.5vh;
 }
 
 #project-list {
@@ -48,8 +48,8 @@
 
 #project-list h2 {
   font-size: calc(1vw + 0.7em);
-  text-decoration: underline 3px solid #8ab0ab;
-  text-underline-offset: 6px;
+  text-decoration: underline 0.2rem solid #8ab0ab;
+  text-underline-offset: 0.5vh;
 }
 
 #project-list h2 a {
