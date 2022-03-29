@@ -34,10 +34,10 @@
   background-color: #8ab0ab;
 }
 
-.box-title {
+.info-box .box-title {
   font-size: calc(1vw + 1em);
   text-decoration: underline 5px solid #8ab0ab;
-  text-underline-offset: 15px;
+  text-underline-offset: 1vh;
 }
 
 #about-me-header {
