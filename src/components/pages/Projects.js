@@ -4,23 +4,27 @@ import Footer from "../Footer.js";
 import guessTheNumberPreview from "../../assets/images/guessthenumber-preview.png";
 import zorkingtonPreview from "../../assets/images/zorkington-preview.png";
 import jeopardyPreview from "../../assets/images/jeopardy-preview.png";
+import yelpingtonPreview from "../../assets/images/yelpington-preview.png";
+import reactChatPreview from "../../assets/images/react-chat-preview.png";
 import "./Projects.css";
 
 export default function Projects() {
   return (
     <main>
       <NavBar /> {/*Navigation Bar component*/}
-
       {/*List of projects - in a grid layout*/}
       {/*Later on, could work on having a system to pull them straight from the github API*/}
       <div className="projects-box">
-
         <h1 className="box-title">Things I've worked on...</h1>
-        
+
         <div id="project-list">
           <div className="project-item">
             <div className="description-header">
-              <h2><a href="https://github.com/MaxS713/guess-the-number-MaxS713">Guess The Number</a></h2>
+              <h2>
+                <a href="https://github.com/MaxS713/guess-the-number-MaxS713">
+                  Guess The Number
+                </a>
+              </h2>
               <a href="https://github.com/MaxS713/guess-the-number-MaxS713">
                 <img
                   src={guessTheNumberPreview}
@@ -37,7 +41,11 @@ export default function Projects() {
           </div>
 
           <div className="project-item">
-            <h2><a href="https://github.com/MaxS713/zorkington-MaxS713">Zorkington</a></h2>
+            <h2>
+              <a href="https://github.com/MaxS713/zorkington-MaxS713">
+                Zorkington
+              </a>
+            </h2>
             <a href="https://github.com/MaxS713/zorkington-MaxS713">
               <img
                 src={zorkingtonPreview}
@@ -55,7 +63,11 @@ export default function Projects() {
           </div>
 
           <div className="project-item">
-            <h2><a href="https://github.com/MaxS713/jeopardy-board-MaxS713">Jeopardy Board</a></h2>
+            <h2>
+              <a href="https://github.com/MaxS713/jeopardy-board-MaxS713">
+                Jeopardy Board
+              </a>
+            </h2>
             <a href="https://github.com/MaxS713/jeopardy-board-MaxS713">
               <img
                 src={jeopardyPreview}
@@ -66,6 +78,49 @@ export default function Projects() {
             <p>
               A trivia game based on the famous TV show Jeopardy. This showcases
               HTML, CSS and JS working together!
+            </p>
+          </div>
+
+          <div className="project-item">
+            <div className="description-header">
+              <h2>
+                <a href="https://github.com/MaxS713/yelpington-MaxS713">
+                  Yelpington
+                </a>
+              </h2>
+              <a href="https://github.com/MaxS713/yelpington-MaxS713">
+                <img
+                  src={yelpingtonPreview}
+                  height="100vh"
+                  alt="Preview of yelpington app"
+                />
+              </a>
+            </div>
+            <p>
+              A react app based on "yelp", a directory of some restaurants in
+              Burlington, VT. Showcases the use of a node.js express server and
+              the map library "leaflet".
+            </p>
+          </div>
+
+          <div className="project-item">
+            <div className="description-header">
+              <h2>
+                <a href="https://github.com/MaxS713/react-chat-maxs-jas">
+                  React Chat
+                </a>
+              </h2>
+              <a href="https://github.com/MaxS713/react-chat-maxs-jas">
+                <img
+                  src={reactChatPreview}
+                  height="100vh"
+                  alt="Preview of the react chat app"
+                />
+              </a>
+            </div>
+            <p>
+              A react chat app. Showcases the use of an express server and a
+              MongoDB database.
             </p>
           </div>
         </div>
