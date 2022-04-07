@@ -56,8 +56,7 @@ export default function Projects() {
             <p>
               A text based console game inspired by the first popular of its
               kind: Zorkington. The game is called Xirtam and is based on the
-              theme of the Matrix. Feel free to try it out! {"\n"}
-              This showcases the use of basic javascript objects and class
+              theme of the Matrix. This showcases the use of basic javascript objects and class
               constructors.
             </p>
           </div>
