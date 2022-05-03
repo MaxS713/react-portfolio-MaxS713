@@ -1,24 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter, Routes, Route, } from "react-router-dom";
-import HomePage from "./components/pages/Home";
-import About from "./components/pages/About";
-import Projects from "./components/pages/Projects";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
 import './index.css'
 
 
-ReactDOM.render(
-  <React.StrictMode>
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-    {/* Router creation for the links to the three main pages of the site */}
-    <BrowserRouter>
-    <Routes>
-        <Route index element={<HomePage />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Projects" element={<Projects />} />
-    </Routes>
-  </BrowserRouter>
-
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+root.render(<App />);
