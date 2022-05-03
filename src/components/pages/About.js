@@ -28,9 +28,9 @@ export default function About() {
             school for my friends to try out!
           </p>
           <p>
-            I am currently studying with a program called Upright Education
-            (a.k.a Burlington Code Academy) and building knowledge in all things
-            coding: JavaScript, HTML and CSS.
+            Now I graduated from a program called Upright Education
+            (a.k.a Burlington Code Academy) where I built knowledge in all things
+            coding.
           </p>
 
           <p>
