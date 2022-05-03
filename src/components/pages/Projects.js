@@ -33,7 +33,7 @@ export default function Projects() {
               />
             </a>
             <p>
-              This project was the <strong>capstone project</strong> for the
+              This project was the <b>capstone project</b> for the
               software development boot camp of Upright Education (Feb. 2022).
               The client wanted a website that had all the latest news and
               socials updates about the L.A. Rams football team. This is a
@@ -118,7 +118,7 @@ export default function Projects() {
               the map library "leaflet".
             </p>
             <p>
-              <a href="https://yelpington-maxs.vercel.app/">Visit it here!</a>
+              <a href="https://yelpington-maxs.vercel.app/">See it here!</a>
             </p>
           </div>
 
