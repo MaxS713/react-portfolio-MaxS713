@@ -14,7 +14,6 @@ export default function Projects() {
     <main>
       <NavBar /> {/*Navigation Bar component*/}
       {/*List of projects - in a grid layout*/}
-      {/*Later on, could work on having a system to pull them straight from the github API*/}
       <div className="projects-box">
         <h1 className="box-title">Things I've worked on...</h1>
 
@@ -33,22 +32,13 @@ export default function Projects() {
               />
             </a>
             <p>
-              This project was the <b>capstone project</b> for the
-              software development boot camp of Upright Education (Feb. 2022).
-              The client wanted a website that had all the latest news and
-              socials updates about the L.A. Rams football team. This is a
-              full-stack application with the use of React, Express and Mongo
-              DB. Web scraping was done with the help of puppeteer and social
-              media APIs.
-            </p>
-            <p>
-              <a href="https://all-things-rams-capstone-demo.herokuapp.com/">
-                See it here!
-              </a>
-              &nbsp;-&nbsp;
-              <a href="https://docs.google.com/presentation/d/e/2PACX-1vREfGwiVL3cejUz0VofCgVTQLdaF6ZCTSdzYF_VleP2Cqjo4LkaIFv-qRT3VVi-A6CWGPx63HB3db0G/pub?start=true&loop=true&delayms=3000&slide=id.p">
-                Demo Day Slides
-              </a>
+              This project was the <b>capstone project</b> for the software
+              development boot camp of Upright Education (Feb. 2022). The client
+              wanted a website that had all the latest news and socials updates
+              about the L.A. Rams football team. This is a full-stack
+              application with the use of React, Express and Mongo DB. Web
+              scraping was done with the help of puppeteer and social media
+              APIs.
             </p>
           </div>
 
@@ -68,11 +58,6 @@ export default function Projects() {
             <p>
               A trivia game based on the famous TV show Jeopardy. This showcases
               HTML, CSS and JS working together!
-            </p>
-            <p>
-              <a href="https://maxs713.github.io/jeopardy-board-MaxS713/">
-                Try it here!
-              </a>
             </p>
           </div>
 
@@ -117,9 +102,6 @@ export default function Projects() {
               Burlington, VT. Showcases the use of a node.js express server and
               the map library "leaflet".
             </p>
-            <p>
-              <a href="https://yelpington-maxs.vercel.app/">See it here!</a>
-            </p>
           </div>
 
           <div className="project-item">
@@ -140,9 +122,6 @@ export default function Projects() {
             <p>
               A react chat app. Showcases the use of an express server and a
               MongoDB database.
-            </p>
-            <p>
-              <a href="https://react-chat-maxs-jas.vercel.app/">Try it here!</a>
             </p>
           </div>
 
