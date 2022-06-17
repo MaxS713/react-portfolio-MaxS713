@@ -7,6 +7,7 @@ import jeopardyPreview from "../../assets/images/jeopardy-preview.png";
 import yelpingtonPreview from "../../assets/images/yelpington-preview.png";
 import reactChatPreview from "../../assets/images/react-chat-preview.png";
 import atrPreview from "../../assets/images/atr-preview.png";
+import crudPreview from "../../assets/images/crud-preview.png";
 import "./Projects.css";
 
 export default function Projects() {
@@ -40,6 +41,9 @@ export default function Projects() {
               scraping was done with the help of puppeteer and social media
               APIs.
             </p>
+            <a href="https://all-things-rams-capstone-demo.herokuapp.com/">
+              See it here!
+            </a>
           </div>
 
           <div className="project-item">
@@ -59,6 +63,9 @@ export default function Projects() {
               A trivia game based on the famous TV show Jeopardy. This showcases
               HTML, CSS and JS working together!
             </p>
+            <a href="https://maxs713.github.io/jeopardy-board-MaxS713/">
+              Try it here!
+            </a>
           </div>
 
           <div className="project-item">
@@ -83,6 +90,29 @@ export default function Projects() {
           </div>
 
           <div className="project-item">
+            <h2>
+              <a href="https://crud-the-robot-factory.vercel.app/">
+                CRUD - The Robot Factory
+              </a>
+            </h2>
+            <a href="https://crud-the-robot-factory.vercel.app/">
+              <img
+                src={crudPreview}
+                height="100vh"
+                alt="Preview of the Robot Factory Game"
+              />
+            </a>
+            <p>
+              This is a full stack application game I designed on my free time
+              for my classmates to try out. You manage a group of robots, have
+              them gather resources, defend your base and raid other players.
+            </p>
+            <a href="https://crud-the-robot-factory.vercel.app/">
+              Try it here!
+            </a>
+          </div>
+
+          <div className="project-item">
             <div className="description-header">
               <h2>
                 <a href="https://github.com/MaxS713/yelpington-MaxS713">
@@ -102,6 +132,9 @@ export default function Projects() {
               Burlington, VT. Showcases the use of a node.js express server and
               the map library "leaflet".
             </p>
+            <a href="https://yelpington-maxs.vercel.app/">
+              Try it here!
+            </a>
           </div>
 
           <div className="project-item">
@@ -123,6 +156,9 @@ export default function Projects() {
               A react chat app. Showcases the use of an express server and a
               MongoDB database.
             </p>
+            <a href="https://react-chat-maxs-jas.vercel.app/">
+              Check it out here!
+            </a>
           </div>
 
           <div className="project-item">

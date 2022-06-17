@@ -80,27 +80,27 @@
   outline:2px solid #8ab0ab
 }
 
-#project-list p a {
+#project-list a {
   font-weight: 600;
   text-decoration: none;
   color: #8ab0ab;
 }
 
-#project-list p a:link {
+#project-list a:link {
   text-decoration: none;
   color: #8ab0ab;
 }
 
-#project-list p a:visited {
+#project-list a:visited {
   text-decoration: none;
   color: #8ab0ab;
 }
 
-#project-list p a:active {
+#project-list a:active {
   text-decoration: none;
   color: #8ab0ab;
 }
 
-#project-list p a:hover {
+#project-list a:hover {
   color: #9cb2af;
 }
