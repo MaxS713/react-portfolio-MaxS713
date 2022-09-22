@@ -18,7 +18,6 @@ export default function About() {
 
         <div id="about-me-content">
           <p>Hello! My name is Maxime Soufer - call me Max.</p>
-          <p>I'm based in Burlington, VT.</p>
           <p>
             I enjoy coding and creating things that can improve quality of life
             for others. I have been interested in coding as long as I can
