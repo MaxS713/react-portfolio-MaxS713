@@ -28,16 +28,3 @@
   font-size: calc(0.5vw + 1em);
   letter-spacing: 0.5vw;
 }
-
-#hero img{
-  max-height:40vh;
-}
-
-/* things were getting squished in portrait
-mode with phone, and this resolves that */
-@media screen and (max-width: 500px) {
-  #hero{
-    display: flex;
-    flex-direction: column;
-  }
-}

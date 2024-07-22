@@ -4,7 +4,7 @@
   outline: 5px solid #8ab0ab;
   margin-top: 7vh;
   margin-bottom: 15vh;
-  padding: 1rem 2rem 0;
+  padding: 1rem 2rem;
   height: 55vh;
   max-width:60vw;
   overflow-x: hidden;
@@ -72,6 +72,10 @@
 
 #project-list h2 a:hover {
   color: #8ab0ab;
+}
+
+#project-list img {
+  width: 100%;
 }
 
 #project-list img:hover {

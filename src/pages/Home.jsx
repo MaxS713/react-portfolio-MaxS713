@@ -1,8 +1,6 @@
 
 import TxtTypeAnimation from "../components/TxtType";
 
-import minecraftSkin from "../assets/images/minecraft-skin.png";
-
 import "./Home.css";
 
 export default function HomePage() {
@@ -21,8 +19,6 @@ export default function HomePage() {
           <span className="wrap" />
           <span className="bracket">&nbsp;&#47;&gt;</span>
         </h1>
-
-        <img src={minecraftSkin} height="350vh" alt="Max's Minecraft skin" />
       </div>
     </main>
   );

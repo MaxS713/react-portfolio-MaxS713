@@ -1,7 +1,7 @@
 import linkedInIcon from "../assets/images/linkedin-icon.png";
 import githubIcon from "../assets/images/github-icon.png";
 
-import resumePDF from "../assets/my-resume.pdf";
+import resumePDF from "../assets/max-resume.pdf";
 
 import "./Footer.css";
 
@@ -26,10 +26,10 @@ export default function Footer() {
       </div>
 
       <div id="social-icons">
-        <a href="https://www.linkedin.com/in/maxime-soufer-510003163/">
+        <a href="https://www.linkedin.com/in/maxime-soufer-510003163/" target="_blank" rel="noopener noreferrer">
           <img src={linkedInIcon} height="50vh" alt="linkedIn Icon" />
         </a>
-        <a href="https://github.com/MaxS713">
+        <a href="https://github.com/MaxS713" target="_blank" rel="noopener noreferrer">
           <img src={githubIcon} height="50vh" alt="GitHub Icon" />
         </a>
       </div>
