@@ -49,13 +49,26 @@
 }
 
 #project-list h2 {
-  font-size: calc(1vw + 0.7em);
+  font-size: calc(1vw + 0.5em);
   text-decoration: underline 0.2rem solid #8ab0ab;
   text-underline-offset: 0.5vh;
 }
 
-#project-list h2 a {
-  text-decoration: underline 3px solid #8ab0ab;
+#project-list .project-title {
+  display: flex;
+}
+
+#project-list .project-title span {
+  display: flex;
+  align-items: center;
+  font-size: calc(0.5vw + 0.3em);
+  margin-left: 8px;
+  margin-top: 12px;
+}
+
+#project-list h2 span {
+  text-decoration: none !important;
+  font-size: calc(0.5vw + 0.1em);
 }
 
 #project-list h2 a:link {
