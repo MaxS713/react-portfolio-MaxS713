@@ -1,7 +1,7 @@
 import linkedInIcon from "../assets/images/linkedin-icon.png";
 import githubIcon from "../assets/images/github-icon.png";
 
-import resumePDF from "../assets/max-resume.pdf";
+import resumePDF from "../assets/resume-maxime-soufer.pdf";
 
 import "./Footer.css";
 
