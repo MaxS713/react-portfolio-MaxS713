@@ -28,19 +28,12 @@ export default function About() {
 
           <p>
             I enjoy coding and creating things that can improve quality of life for others. I have
-            been interested in programming as long as I can remember. As a child, I was always tinkering
-            and digging into how software functions. I would even code simple text-based games
-            on my graphing calculator in high school for my friends to try out!
-          </p>
-
-          <p>
-            I graduated from a program called Upright Education (a.k.a Burlington Code Academy)
-            where I built knowledge in all things coding.
+            been interested in programming for as long as I can remember.
           </p>
 
           <p>
             AFK, you will find me taking care of my dog, cooking food, watching popular
-            movies and tv shows, and playing music!
+            movies and tv shows, dancing or playing music!
           </p>
         </div>
       </div>
